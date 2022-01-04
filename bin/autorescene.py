@@ -23,13 +23,13 @@ release_list = dict()
 missing_files = []
 compressed_release = []
 
-username = ""
-password = ""
+username = "maelgrim"
+password = "svitaochjohn2012"
 site = "https://www.srrdb.com/"
 srrdb_api = "http://www.srrdb.com/api/search/"
 srrdb_download = "http://www.srrdb.com/download/srr/"
-rar_version = "C:\\Python39\\pyrescene-master\\rarv"
-srr_temp_foder = "F:\\tmp"
+rar_version = "C:/Users/MediaServer/AppData/Roaming/Python/Python310/site-packages/rescene"
+srr_temp_foder = "C:/Users/MediaServer/Desktop/downloads/srrdb_processing"
 
 def arg_parse():
     parser = argparse.ArgumentParser(
